@@ -67,11 +67,15 @@
 <!-- the "buttons" -->
 <div class="center-block">
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
-        <img width="180" src="media/btn_W01.svg">
-    <a>
+        <img width="128" src="media/btn_W01.svg">
+    </a>
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/week2/exercise2.html">
-    <img width="180" src="media/btn_W02.svg">
-    <a>
+        <img width="128" src="media/btn_W02.svg">
+    </a>
+    <a href="https://sirarsen1.github.io/WebProgrammingClass/">
+        <img width="128" src="media/btn_W03.svg">
+    </a>
+</div>
 
 
 
