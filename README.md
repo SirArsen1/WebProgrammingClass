@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang = "en">
 
 <head>
@@ -73,7 +72,6 @@
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/week2/exercise2.html">
     <img width="180" src="media/btn_W02.svg">
     <a>
-</div>
 
 
 
