@@ -7,13 +7,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
 
 <style>
+/* fonts */
 
-.stack-sans-headline-header {
-  font-family: "Stack Sans Headline", sans-serif;
+.chivo-mono-header {
+  font-family: "Chivo Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 64px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: black;
 }   
 
 .chivo-mono-body {
@@ -36,6 +38,8 @@
   color: black;
   font-style: italic;
 }
+
+/* blocks */
 
 .ascii-art { 
     font-family: "courier new", monospace;
@@ -61,8 +65,10 @@
     gap: 12px;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 8px;
+    padding-top: 4px;
 }
+
+/* misc elements */
 
 .buttons {
     display: flex;
@@ -131,6 +137,22 @@
     </div>
 </div>
 
+<div class="main-block">
+<h1 class="chivo-mono-header">
+    Other repos:
+</h1>
+<div class="buttons">
+    <a class="btn" href="https://github.com/SirArsen1/Arsen-s-Assignment-Repository-">
+        <img width="120" src="media/btn_TB1.svg">
+    </a>
+    <a class="btn" href="https://github.com/SirArsen1/Chicken-Farm-Pygame">
+        <img width="120" src="media/btn_CG1.svg">
+    </a>
+    <a class="btn" href="https://github.com/SirArsen1/TB2_Repository">
+        <img width="120" src="media/btn_TB2.svg">
+    </a>
+    </div>
+</div>
 
 
 
