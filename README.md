@@ -28,9 +28,9 @@
 .chivo-mono-notation {
   font-family: "Chivo Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 600;
   font-style: normal;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .ascii-art { 
@@ -79,12 +79,19 @@
 <tr>
 <td>
 
+<!-- Name text -->
+<p class="chivo-mono-notation">
+    <i>
+        &nbsp; Sir_Arsen speaking...
+    </i>
+</p>
+
 <!-- Small greeting message -->
 <div align=center>
 <table border="0" width="400">
   <tr>
-    <td> <img src="media/AsciiArtPortrait.png" width="180"> </td>
-    <td class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
+    <td width="100"> <img src="media/AsciiArtPortrait.png" width="180"> </td>
+    <td width="300" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
   </tr>
 </table>
 </div>
