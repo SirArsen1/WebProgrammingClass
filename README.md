@@ -82,14 +82,12 @@
 </div>
 
 <!-- Small greeting message -->
-<div align=center>
 <table border="0" align="center" width="400">
   <tr>
     <td width="100"> <img src="media/AsciiArtPortrait.png" width="180"> </td>
     <td width="300" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
   </tr>
 </table>
-</div>
 
 <!-- the "buttons" -->
 <div align=center>
