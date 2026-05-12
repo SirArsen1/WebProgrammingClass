@@ -23,6 +23,7 @@
   font-style: normal;
   font-size: 16px;
   text-align: left;
+  color: black;
 }
 
 .chivo-mono-notation {
@@ -31,6 +32,9 @@
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
+  letter-spacing: -0.05em;
+  color: black;
+  font-style: italic;
 }
 
 .ascii-art { 
@@ -41,8 +45,33 @@
     letter-spacing: -0.2em;
 }
 
-</style>
+.main-block {
+    background-color: white;
+    padding: 16px;
+    border: 2px solid black;
+    width: 416px;
+    margin: 0 auto;
+    gap: 10px;
+}
 
+.dialog-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+</style>
 </head>
 
 <p class="ascii-art" align="center">
@@ -64,34 +93,24 @@
  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' 
 </p>
 
-<!-- old headline
-<div align="center">
-<header>
-    <h1 class="stack-sans-headline-header">
-            Web Programming Class Repository!
-    </h1>
-</header>
-</div>
--->
-
+<div class="main-block">
 <!-- Name text -->
-<div align="center" class="chivo-mono-notation">
-    <i>
-        &nbsp; Sir_Arsen speaking...
-    </i>
-</div>
+<div class="chivo-mono-notation">
+    &nbsp; Sir_Arsen speaking...
+    </div>
 
 <!-- Small greeting message -->
-<table style="margin: 0 auto;" border="0" width="400">  <tr>
-    <td width="100"> <img src="media/AsciiArtPortrait.png" width="180"> </td>
-    <td width="300" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
-  </tr>
-</table>
-
-<br>
+<div class="dialog-block">
+    <p> 
+        <img src="media/AsciiArtPortrait.png" width="180"> 
+    </p>
+    <p class="chivo-mono-body"> 
+        Welcome to repository that stores my assignments for Web Programming class!
+    </p>
+    </div>
 
 <!-- the "buttons" -->
-<div align=center>
+<div class="buttons">
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
         <img width="128" src="media/btn_W01.svg">
     </a>
@@ -101,6 +120,7 @@
     <a href="https://sirarsen1.github.io/WebProgrammingClass/">
         <img width="128" src="media/btn_W03.svg">
     </a>
+    </div>
 </div>
 
 
