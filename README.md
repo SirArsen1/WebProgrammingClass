@@ -75,7 +75,7 @@
 -->
 
 <!-- Name text -->
-<div class="chivo-mono-notation">
+<div align="center" class="chivo-mono-notation">
     <i>
         &nbsp; Sir_Arsen speaking...
     </i>
