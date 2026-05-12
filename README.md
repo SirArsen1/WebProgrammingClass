@@ -80,7 +80,6 @@
 
 </style>
 </head>
-</details>
 
 <p class="ascii-art" align="center">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
@@ -100,6 +99,7 @@
 \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' 
 </p>
+</details>
 
 <div class="main-block">
 <!-- Name text -->
@@ -110,7 +110,7 @@
 <!-- Small greeting message -->
 <div class="dialog-block">
     <p> 
-        <img src="media/AsciiArtPortrait.png" width="180"> 
+        <img src="media/AsciiArtPortrait.png" style="width: 180px; min-width: 180px; max-width: 180px;">
     </p>
     <p class="chivo-mono-body" width="300"> 
         Welcome to repository that stores my assignments for Web Programming class!
