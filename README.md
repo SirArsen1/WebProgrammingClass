@@ -75,7 +75,7 @@
 -->
 
 
-
+<div align="center">
 <!-- Name text -->
 <p class="chivo-mono-notation">
     <i>
@@ -105,10 +105,7 @@
         <img width="128" src="media/btn_W03.svg">
     </a>
 </div>
-
-</td>
-</tr>
-</table>
+</div>
 
 
 
