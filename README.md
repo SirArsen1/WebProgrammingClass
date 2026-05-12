@@ -35,7 +35,7 @@
 
 .ascii-art { 
     font-family: "courier new", monospace;
-    font-size: 12px;
+    font-size: 6px;
     white-space: pre;
     line-height: 0.8;
     letter-spacing: -0.2em;
@@ -74,12 +74,10 @@
 </div>
 -->
 
-
 <!-- A table to wrap the main block inside the border -->
-<table align=center width="460" border=2>
+<table align=center width="400" border=2>
 <tr>
 <td>
-<br> <!-- just a break to create a sort of top margin -->
 
 <!-- Small greeting message -->
 <div align=center>
@@ -103,7 +101,6 @@
         <img width="128" src="media/btn_W03.svg">
     </a>
 </div>
-<br> <!-- just a break to create a sort of bottom margin -->
 
 </td>
 </tr>
