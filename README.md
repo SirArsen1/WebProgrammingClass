@@ -102,7 +102,6 @@
     <a href="https://sirarsen1.github.io/WebProgrammingClass/">
         <img width="164" src="media/btn_W03.svg">
     </a>
-    </div>
 </div>
 <br> <!-- just a break to create a sort of bottom margin -->
 
