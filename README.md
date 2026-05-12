@@ -74,14 +74,12 @@
 </div>
 -->
 
-
-<div align="center">
 <!-- Name text -->
-<p class="chivo-mono-notation">
+<div class="chivo-mono-notation">
     <i>
         &nbsp; Sir_Arsen speaking...
     </i>
-</p>
+</div>
 
 <!-- Small greeting message -->
 <div align=center>
@@ -104,7 +102,6 @@
     <a href="https://sirarsen1.github.io/WebProgrammingClass/">
         <img width="128" src="media/btn_W03.svg">
     </a>
-</div>
 </div>
 
 
