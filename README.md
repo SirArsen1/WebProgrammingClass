@@ -78,15 +78,15 @@
 <!-- A table to wrap the main block inside the border -->
 <table align=center border=2>
 <tr>
-<td width="600">
+<td>
 <br> <!-- just a break to create a sort of top margin -->
 
 <!-- Small greeting message -->
 <div align=center>
 <table border="0">
   <tr>
-    <td width="200"> <img src="media/AsciiArtPortrait.png" width="180"> </td>
-    <td width="400" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
+    <td> <img src="media/AsciiArtPortrait.png" width="180"> </td>
+    <td class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
   </tr>
 </table>
 </div>
