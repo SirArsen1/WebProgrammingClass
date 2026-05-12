@@ -63,10 +63,6 @@
   </tr>
 </table>
 
-<!-- break block to create space between divs -->
-<br>
-<br>
-
 <!-- the "buttons" -->
 <div class="center-block">
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
