@@ -56,23 +56,23 @@
 </div>
 
 <!-- Small greeting message -->
-<table>
+<table class="center-block" border="0">
   <tr>
-    <td width="200"> <img src="media/AsciiArtPortrait.png" width="200" border="2"> </td>
-    <td width="600" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
+    <td width="200"> <img src="media/AsciiArtPortrait.png" width="180" border="2"> </td>
+    <td width="400" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
   </tr>
 </table>
 
 <!-- the "buttons" -->
 <div class="center-block">
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
-        <img width="128" src="media/btn_W01.svg">
+        <img width="164" src="media/btn_W01.svg">
     </a>
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/week2/exercise2.html">
-        <img width="128" src="media/btn_W02.svg">
+        <img width="164" src="media/btn_W02.svg">
     </a>
     <a href="https://sirarsen1.github.io/WebProgrammingClass/">
-        <img width="128" src="media/btn_W03.svg">
+        <img width="164" src="media/btn_W03.svg">
     </a>
 </div>
 
