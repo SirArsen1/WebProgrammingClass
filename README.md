@@ -74,10 +74,7 @@
 </div>
 -->
 
-<!-- A table to wrap the main block inside the border -->
-<table align=center width="400" border=2>
-<tr>
-<td>
+
 
 <!-- Name text -->
 <p class="chivo-mono-notation">
