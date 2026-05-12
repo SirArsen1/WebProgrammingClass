@@ -76,14 +76,14 @@
 
 
 <!-- A table to wrap the main block inside the border -->
-<table align=center width="600" border=2>
+<table align=center width="500" border=2>
 <tr>
 <td>
 <br> <!-- just a break to create a sort of top margin -->
 
 <!-- Small greeting message -->
 <div align=center>
-<table border="0">
+<table border="2">
   <tr>
     <td> <img src="media/AsciiArtPortrait.png" width="180"> </td>
     <td class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
@@ -94,13 +94,13 @@
 <!-- the "buttons" -->
 <div align=center>
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
-        <img width="164" border="2" src="media/btn_W01.svg">
+        <img width="128" border="2" src="media/btn_W01.svg">
     </a>
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/week2/exercise2.html">
-        <img width="164" border="2" src="media/btn_W02.svg">
+        <img width="128" border="2" src="media/btn_W02.svg">
     </a>
     <a href="https://sirarsen1.github.io/WebProgrammingClass/">
-        <img width="164" border="2" src="media/btn_W03.svg">
+        <img width="128" border="2" src="media/btn_W03.svg">
     </a>
 </div>
 <br> <!-- just a break to create a sort of bottom margin -->
