@@ -1,5 +1,5 @@
-<html lang = "en">
-
+<details>
+<summary>View on GitHub Pages for best experience</summary>
 <head>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,8 +71,16 @@
     gap: 6px;
 }
 
+.btn {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 </style>
 </head>
+</details>
 
 <p class="ascii-art" align="center">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
@@ -104,21 +112,21 @@
     <p> 
         <img src="media/AsciiArtPortrait.png" width="180"> 
     </p>
-    <p class="chivo-mono-body"> 
+    <p class="chivo-mono-body" width="300"> 
         Welcome to repository that stores my assignments for Web Programming class!
     </p>
     </div>
 
 <!-- the "buttons" -->
 <div class="buttons">
-    <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
-        <img width="128" src="media/btn_W01.svg">
+    <a class="btn" href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
+        <img width="120" src="media/btn_W01.svg">
     </a>
-    <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/week2/exercise2.html">
-        <img width="128" src="media/btn_W02.svg">
+    <a class="btn" href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/week2/exercise2.html">
+        <img width="120" src="media/btn_W02.svg">
     </a>
-    <a href="https://sirarsen1.github.io/WebProgrammingClass/">
-        <img width="128" src="media/btn_W03.svg">
+    <a class="btn" href="https://sirarsen1.github.io/WebProgrammingClass/">
+        <img width="120" src="media/btn_W03.svg">
     </a>
     </div>
 </div>
