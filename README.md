@@ -76,7 +76,7 @@
 
 
 <!-- A table to wrap the main block inside the border -->
-<table align=center border=2>
+<table align=center width="600" border=2>
 <tr>
 <td>
 <br> <!-- just a break to create a sort of top margin -->
