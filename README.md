@@ -22,7 +22,7 @@
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
 }
 
 .chivo-mono-notation {
@@ -35,6 +35,10 @@
 
 .center-block {
     text-align: center;
+}
+
+.greet-block {
+    border: 2px;
 }
 
 </style>
@@ -51,14 +55,13 @@
 </header>
 </div>
 
-<!-- Small getting message -->
-<div class="center-block">
-<body>
-    <b1 class="chivo-mono-body">
-        <br> Welcome to repository that stores my assignments for Web Programming class!
-    </b1>
-</body>
-</div>
+<!-- Small greeting message -->
+<table>
+  <tr>
+    <td width="200"> <img src="media/AsciiArtPortrait.png" width="200" border="2"> </td>
+    <td width="600" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
+  </tr>
+</table>
 
 <!-- break block to create space between divs -->
 <br>
@@ -76,6 +79,7 @@
         <img width="128" src="media/btn_W03.svg">
     </a>
 </div>
+
 
 
 
