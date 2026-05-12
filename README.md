@@ -33,38 +33,37 @@
   font-size: 10px;
 }
 
-.center-block {
-    text-align: center;
-}
-
-.greet-block {
-    border: 2px;
-}
-
 </style>
+
 </head>
 
 <!-- header with smart caption! -->
 <div class="center-block">
 <header>
     <h1 class="stack-sans-headline-header">
-            WELCOME TO THE WP REPO! <br>
-        <n1 class="chivo-mono-notation">
-        </n1>
+            Web Programming Class Repository!
     </h1>
 </header>
 </div>
 
+<!-- A table to wrap the main block inside the border -->
+<table align=center border=2>
+<tr>
+<td>
+<br> <!-- just a break to create a sort of top margin -->
+
 <!-- Small greeting message -->
-<table class="center-block" border="0">
+<div align=center>
+<table border="0">
   <tr>
-    <td width="200"> <img src="media/AsciiArtPortrait.png" width="180" border="2"> </td>
+    <td width="200"> <img src="media/AsciiArtPortrait.png" width="180"> </td>
     <td width="400" class="chivo-mono-body"> Welcome to repository that stores my assignments for Web Programming class! </td>
   </tr>
 </table>
+</div>
 
 <!-- the "buttons" -->
-<div class="center-block">
+<div align=center>
     <a href="https://github.com/SirArsen1/WebProgrammingClass/blob/ca7c53a9180056eb6d6624a805d32903c8a03e9d/demo00/demo.html">
         <img width="164" src="media/btn_W01.svg">
     </a>
@@ -74,8 +73,13 @@
     <a href="https://sirarsen1.github.io/WebProgrammingClass/">
         <img width="164" src="media/btn_W03.svg">
     </a>
+    </div>
 </div>
+<br> <!-- just a break to create a sort of bottom margin -->
 
+</td>
+</tr>
+</table>
 
 
 
