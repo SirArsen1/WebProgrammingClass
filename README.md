@@ -38,6 +38,7 @@ html {
   height: 16px;
   padding-left: 8px;
   padding-bottom: 6px;
+  padding-top: 4px;
 }
 
 /* blocks */
