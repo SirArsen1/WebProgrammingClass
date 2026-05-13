@@ -124,16 +124,16 @@ html {
 
 <!-- Small greeting message -->
 <div class="dialog-block" style="">
-    <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; "> 
+    <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; position: relative;"> 
         <div style="background:yellow; min-height: 100px; max-height: 100px; min-width: 100px; max-width: 100px; position: absolute; left: 0; mix-blend-mode: multiply;"></div>
         <img src="media/AsciiArtPortrait.gif" style="min-width: 100px; max-width: 100px;">
-    </div style="background-color: yellow;">
+    </div>
     <div class="chivo-mono-body" width="300" style="display: flex; align-items: center; min-height: 100px; max-height: 100px; padding-left: 16px; border: 1px solid white; border-left: 0px;"> 
         > Welcome to repository that stores my assignments for Web Programming class!
     </div>
 </div> <!-- Small greeting message -->
 
-<p></p><!-- I am too lazy to learn how to make a grap between dialog block and buttons, so I will just put p's here -->
+<br>
 
 <!-- the "buttons" -->
 <div class="buttons">
