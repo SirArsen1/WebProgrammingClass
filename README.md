@@ -112,7 +112,7 @@ html {
 <div style="width: 482px;"> <!-- Div that wraps everything together, because I was too tired to fix the problem with sliding bars -->
 <!-- Main blocks -->
 <!-- WP REPO ASSIGNMENT top-bar -->
-<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px; width: 474px;">
+<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px;">
     Web Programming Repository:
     </div> <!-- WP REPO ASSIGNMENT top-bar -->
 <div class="main-block" style="border-top: 0px; border-bottom: 0px;">
@@ -124,7 +124,7 @@ html {
 
 <!-- Small greeting message -->
 <div class="dialog-block" style="">
-    <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; position: relative;"> 
+    <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; "> 
         <div style="background:yellow; min-height: 100px; max-height: 100px; min-width: 100px; max-width: 100px; position: absolute; left: 0; mix-blend-mode: multiply;"></div>
         <img src="media/AsciiArtPortrait.gif" style="min-width: 100px; max-width: 100px;">
     </div style="background-color: yellow;">
@@ -170,7 +170,7 @@ html {
 </div><!-- Other repos -->
 
 <!-- Portfolio tob-bar -->
-<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px; color: black; width: 474px">
+<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px; color: black;">
     Portfolio:
     </div> <!-- Portfolio tob-bar -->
 
