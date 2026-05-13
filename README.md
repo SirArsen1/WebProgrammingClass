@@ -66,7 +66,6 @@ html {
     align-items: center;
     gap: 0 auto;
     width: fit-content;
-    max-height: 100px;
 }
 
 /* misc elements */
@@ -124,7 +123,7 @@ html {
     </div> <!-- Name text -->
 
 <!-- Small greeting message -->
-<div class="dialog-block">
+<div class="dialog-block" style="min-height: 100px; max-height: 100px;">
     <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; position: relative;"> 
         <div style="background:yellow; min-height: 100px; max-height: 100px; min-width: 100px; max-width: 100px; position: absolute; left: 0; mix-blend-mode: multiply;"></div>
         <img src="media/AsciiArtPortrait.gif">
