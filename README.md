@@ -88,11 +88,11 @@ html {
 </head>
 </details>
 
-<p style="width: 482px">
+<p style="min-width: 482px; max-width: 482px">
 <img src="media/ascii-intro.gif">
 </p>
 
-<p class="ascii-art" style="align: center; position: absolute; left: 205px; top: 100px;">
+<p class="ascii-art" style="align: center; position: absolute; left: 180px; top: 100px;">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
 / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
 \ \/\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ \/ /
@@ -110,7 +110,7 @@ html {
 \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' </p>
 
-<div style="width: 482px;"> <!-- Div that wraps everything together, because I was too tired to fix the problem with sliding bars -->
+<div style="width: 482px; align: center; align-items: center;"> <!-- Div that wraps everything together, because I was too tired to fix the problem with sliding bars -->
 <!-- Main blocks -->
 <!-- WP REPO ASSIGNMENT top-bar -->
 <div class="chivo-mono-notation" style="background: white; padding-bottom: 6px;">
