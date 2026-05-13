@@ -17,19 +17,10 @@ html {
 }
 
 /* fonts */
-.chivo-mono-header {
-  font-family: "Chivo Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: white;
-}   
-
 .chivo-mono-body {
   font-family: "Chivo Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 100;
   font-style: normal;
   font-size: 16px;
   text-align: left;
@@ -39,12 +30,14 @@ html {
 .chivo-mono-notation {
   font-family: "Chivo Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 100;
   font-style: normal;
   font-size: 14px;
-  letter-spacing: -0.05em;
-  color: white;
-  font-style: italic;
+  color: black;
+  background-color: white;
+  height: 16px;
+  padding-left: 8px;
+  padding-bottom: 6px;
 }
 
 /* blocks */
@@ -54,13 +47,14 @@ html {
     white-space: pre;
     line-height: 0.8;
     letter-spacing: -0.2em;
-    color: white;
+    color: yellow;
 }
 
 .main-block {
     background-color: black;
-    padding: 16px;
+    padding: 32px;
     border: 1px solid white;
+    border-style: dashed;
     width: 416px;
     margin: 0 auto;
     gap: 10px;
@@ -71,9 +65,7 @@ html {
     justify-content: center;
     align-items: center;
     gap: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 4px;
+    width: fit-content;
 }
 
 /* misc elements */
@@ -95,82 +87,53 @@ html {
 </head>
 </details>
 
-<p class="ascii-art" align="center">
-                                                                                          
-                 ███████ ████████   ██████████████████ ████████████                                                                                                                                                                                                 
-                   ████    ████      ██    ███     ██     ███   ████                                                                                                                                                                                                
-                   ████     ████     █    █████     █     ████   ████                                                                                                                                                                                               
-                    ████    ████    ██    █████  █  ██    ████   ████                                                                                                                                                                                               
-                    ████    █████   ██    █████  █        ████   ████                                                                                                                                                                                               
-                     ████   █████   █     ████  ██        ███   ████                                                                                                                                                                                                
-                     ████  ██ ████ ██     ████████        ████████                                                                                                                                                                                                  
-                     █████ █  ████ █      ████  ██        ███   █████                                                                                                                                                                                               
-                      ██████  ██████      ████   █        ████   █████                                                                                                                                                                                              
-                      █████    ████       █████  █   ██   ████    ████                                                                                                                                                                                              
-                       ████    ████       █████      █    ████   █████                                                                                                                                                                                              
-                       ███      ██        ████      ██    ███    ████                                                                                                                                                                                               
-                        ██      ██        ████████████   ███████████                                                                                                                                                                                                
-                        █       ██      ███   █████    ███   ███                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                    
-                 ███████████   ████████████          ███████           ████████ ██ ███████████             █        ███████       ██████████████        ██████████████████████    ██████      ███████  █                                                            
-                    ████ █████    ███   █████      ████    ███       ████    ████    ████   █████          ██         █████       █████     █████      █████     ████     █████     ██      ███     ████                                                            
-                    ████   ████  ████    ████     ████     ████     ████       ██    ████    ████         ███         ██████     ██████     █████      █████     ████     ██████    ██     ███        ██                                                            
-                    ████   ████  █████    ████   ████       ████   ████         █    ████    █████        ████        █ ████     █ ████     █ ████    ██ ███     ████     ██████    ██    ████        ██                                                            
-                    ████   ████  █████    ████   ████       ████  █████         █    ████    █████       █████        █  ████   ██ ████     █ ████    █  ███     ████     █ █████   ██   █████         █                                                            
-                    ████  ████   ████    ████   █████       █████ █████              ████    ████       ██ ████       █  ████   █  ████     █ █████   █ ████     ████     █  █████  ██   ████                                                                       
-                    ████ ████    ████   ████    █████       █████ █████              ████  █████        █  ████       ██ █████  █  ████     █  ████  █  ████     ████     █   █████ ██   ████                                                                       
-                    ███████      █████████      █████       █████ █████              █████████         ██   ████      ██  ████ ██  ████     █  ████  █  ████     ████     █    ███████   ████                                                                       
-                    ████         ████  ████     █████       █████ █████    ████████  ████  ████        █    ████      ██  ██████   ████     █   ██████  ████     ████     █     ██████   ████     ████████                                                          
-                    ████         ████   ████     ████       ████  █████      ████    ████  █████      ███████████     ██   █████   ████     █   █████   ████     ████     █      █████   ████       ████                                                            
-                    ████         ████   █████    ████       ████   ████      ████    ████   █████     █      ████     ██   ████    ████     █    ████   ████     ████     █       ████    ████      ████                                                            
-                    ████          ███    █████    ████     ████     ████     ████    ████    █████   ██      █████    ██    ███    ████     █    ███    ████     ████     █        ███     ███      ████                                                            
-                    ████         █████    █████    ████   ████       ████    ████    █████    █████  ██       █████   ██    ██     ████    ██     ██    █████    ████    ███        ██      ████    ████                                                            
-                 █████████     █████████   █████     ███████           ████████    █████████   ██████████   ██████████████   █   ██████████████   █   ████████████████████████      ██        ████████                                                              
-                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                    
-                 ████████████████         ████████████████████    █████████████                █████████              ███████   █   █████████████ █████████████████████         ██████████        ████████████████        ████████████     ████████                 
-                    ████████████████         █████████████████      ██████████████           █████   █████          ████   ██████      ███████    █████████████████████       ██████   █████         ████████████████      ████████          ████                   
-                     ██████     ██████        ██████      ████       █████    ██████       █████       █████       ████      ████       ██████    ███     █████     ███      █████      █████         █████      ██████      ██████           ██                    
-                     ██████      █████        ██████        ██       ██████    ██████     █████         █████      ███        ███       ██████    ██      ██████     ██     █████        █████        ██████      █████      ███████         ██                     
-                     ██████      ██████       ██████        ██       ██████    ██████    ██████         ██████    ████         ██       ██████    ██      ██████     ██    █████          █████       ██████      ██████      ██████         ██                     
-                     ██████      ██████       ██████    █    █       ██████    ██████    █████           █████    █████         █       ██████    ██      ██████      █   ██████          ██████      ██████      ██████      ███████       ██                      
-                     ██████      ██████       ██████    █    █       ██████    ██████   ██████           ██████   ██████        █       ██████            ██████          ██████          ██████      ██████      ██████       ██████      ██                       
-                     ██████      ██████       ██████    █            ██████    ██████   ██████           ██████   ████████              ██████            ██████         ██████            ██████     ██████      ██████        ██████     ██                       
-                     ██████      ██████       ██████   ██            ██████    ██████  ███████           ███████   █████████            ██████            ██████         ██████            ██████     ██████      ██████        ███████   ██                        
-                     ██████     ██████        ██████  ███            ██████   ██████   ███████           ███████   ███████████          ██████            ██████         ██████            ██████     ██████     ██████          ██████  ███                        
-                     ██████    ██████         ███████████            █████   ██████    ███████           ███████    ████████████        ██████            ██████         ██████            ██████     █████     ██████           ███████ ██                         
-                     ██████████████           ███████████            ████████████      ███████           ███████     ████████████       ██████            ██████         ██████            ██████     ██████████████              ████████                          
-                     ██████ ███████           ██████  ███            ██████            ███████           ███████       ███████████      ██████            ██████         ██████            ██████     ██████ ██████               ████████                          
-                     ██████  ██████           ██████   ██            ██████            ███████           ███████         █████████      ██████            ██████         ██████            ██████     ██████  ██████               ██████                           
-                     ██████  ███████          ██████    █            ██████             ██████           ██████   ██       ████████     ██████            ██████         ██████            ██████     ██████  ███████              ██████                           
-                     ██████   ███████         ██████    █     ██     ██████             ██████           ██████   ██         ██████     ██████            ██████         ███████          ██████      ██████   ███████             ██████                           
-                     ██████    ███████        ██████    █     ██     ██████             ██████           █████    ██          █████     ██████            ██████          ██████          ██████      ██████    ███████            ██████                           
-                     ██████     ██████        ██████          ██     ██████              ██████         ██████    ███         █████     ██████            ██████          ██████          █████       ██████     ██████            ██████                           
-                     ██████     ███████       ██████         ██      ██████               █████         █████     ███         ████      ██████            ██████           ██████        ██████       ██████     ███████           ██████                           
-                     ██████      ███████      ██████        ███      ██████                █████       █████      ████        ████      ██████            ██████            █████        █████        ██████      ███████          ██████                           
-                     ██████       ███████     ███████    ██████      ██████                 █████     █████       ██████     ████      ███████            ██████             ██████     █████         ██████       ███████         ██████                           
-                 █████████████     ████████████████████████████   ████████████                ███████████         ██  █████████     █████████████     █████████████            ████████████       █████████████    █████████   ██████████████                       
-                                                                                                 █████            █      ███                                                       ████ 
-        
+<p style="width: 482px">
+<img src="media/ascii-intro.gif">
 </p>
 
+<p class="ascii-art" style="align: center; position: absolute; left: 205px; top: 100px;">
+ .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
+/ .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+\ \/\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ \/ /
+ \/ /`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\/ / 
+ / /\                                                                / /\ 
+/ /\ \  ██╗    ██╗██████╗     ██████╗ ███████╗██████╗  ██████╗ ██╗  / /\ \
+\ \/ /  ██║    ██║██╔══██╗    ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██║  \ \/ /
+ \/ /   ██║ █╗ ██║██████╔╝    ██████╔╝█████╗  ██████╔╝██║   ██║██║   \/ / 
+ / /\   ██║███╗██║██╔═══╝     ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║╚═╝   / /\ 
+/ /\ \  ╚███╔███╔╝██║         ██║  ██║███████╗██║     ╚██████╔╝██╗  / /\ \
+\ \/ /   ╚══╝╚══╝ ╚═╝         ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  \ \/ /
+ \/ /                                                                \/ / 
+ / /\.--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--./ /\ 
+/ /\ \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \/\ \
+\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
+ `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' </p>
+
+<div style="width: 482px;"> <!-- Div that wraps everything together, because I was too tired to fix the problem with sliding bars -->
 <!-- Main blocks -->
-<div class="main-block">
+<!-- WP REPO ASSIGNMENT top-bar -->
+<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px; width: 474px;">
+    Web Programming Repository:
+    </div> <!-- WP REPO ASSIGNMENT top-bar -->
+<div class="main-block" style="border-top: 0px; border-bottom: 0px;">
+
 <!-- Name text -->
-<div class="chivo-mono-notation">
-    &nbsp; Sir_Arsen speaking...
+<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px;">
+    Sir_Arsen speaking...
     </div> <!-- Name text -->
 
 <!-- Small greeting message -->
 <div class="dialog-block">
-    <p> 
-        <img src="media/AsciiArtPortrait.png" style="display: flex; width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white;">
-        </p>
-    <p class="chivo-mono-body" width="300" style="display: flex; align-items: center; min-height: 100px; max-height: 100px; padding-left: 16px; border: 1px solid white; border-left: 0px;"> 
-        Welcome to repository that stores my assignments for Web Programming class!
-    </p>
-    </div> <!-- Small greeting message -->
+    <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; position: relative;"> 
+        <div style="background:yellow; height: 100px; width: 100px; position: absolute; left: 0; mix-blend-mode: multiply;"></div>
+        <img src="media/AsciiArtPortrait.gif">
+    </div style="background-color: yellow;">
+    <div class="chivo-mono-body" width="300" style="display: flex; align-items: center; min-height: 100px; max-height: 100px; padding-left: 16px; border: 1px solid white; border-left: 0px;"> 
+        > Welcome to repository that stores my assignments for Web Programming class!
+    </div>
+</div> <!-- Small greeting message -->
+
+<p></p><!-- I am too lazy to learn how to make a grap between dialog block and buttons, so I will just put p's here -->
 
 <!-- the "buttons" -->
 <div class="buttons">
@@ -183,14 +146,16 @@ html {
     <a class="btn" href="https://sirarsen1.github.io/WebProgrammingClass/">
         <img height="44" src="media/btn_W03.svg">
     </a>
-    </div> <!-- the "buttons" -->
+</div> <!-- the "buttons" -->
 </div>
 
+<!-- Other repos top-bar -->
+<div class="chivo-mono-notation">
+    Other Repos:
+    </div> <!-- Other repos top-bar -->
+
 <!-- Other repos -->
-<div class="main-block" style="border-top: 0;">
-<h1 class="chivo-mono-header">
-    Other repos:
-</h1>
+<div class="main-block" style="border-top: 0; border-bottom: 0px;">
 <div class="buttons">
     <a class="btn" href="https://github.com/SirArsen1/Arsen-s-Assignment-Repository-">
         <img height="30" src="media/btn_TB1.svg">
@@ -204,11 +169,13 @@ html {
 </div>
 </div><!-- Other repos -->
 
+<!-- Portfolio tob-bar -->
+<div class="chivo-mono-notation" style="background: white; padding-bottom: 6px; color: black; width: 474px">
+    Portfolio:
+    </div> <!-- Portfolio tob-bar -->
+
 <!-- Portfolio & Socials -->
 <div class="main-block" style="border-top: 0;">
-<h1 class="chivo-mono-header">
-    Portfolio
-</h1>
 <div class="buttons">
     <a class="btn" href="https://www.instagram.com/arsen.dsgner/">
         <img height="30" src="media/btn_Ig.svg">
@@ -219,6 +186,7 @@ html {
 </div> 
 </div><!-- Portfolio & Socials -->
 </div><!-- Main blocks -->
+</div>
 
 
 
