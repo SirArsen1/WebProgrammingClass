@@ -66,6 +66,7 @@ html {
     align-items: center;
     gap: 0 auto;
     width: fit-content;
+    max-height: 100px;
 }
 
 /* misc elements */
