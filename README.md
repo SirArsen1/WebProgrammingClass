@@ -88,9 +88,9 @@ html {
 </head>
 </details>
 
-<p style="min-width: 475px; max-width: 475px">
+<div class="ascii-art" style="min-width: 470px; max-width: 470px; align: center; display: flex; margin: 6px">
 <img src="media/ascii-intro.gif">
-</p>
+</div>
 
 <p class="ascii-art" style="align: center; position: absolute; left: 180px; top: 100px;">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
