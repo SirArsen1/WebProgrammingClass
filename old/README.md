@@ -7,23 +7,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
 
 <style>
-/* override of .md style */
-h1, h2 {
-    border-bottom: none;
-}
-
-html {
-    background-color: black;
-}
-
 /* fonts */
+
 .chivo-mono-header {
   font-family: "Chivo Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
-  color: white;
+  color: black;
 }   
 
 .chivo-mono-body {
@@ -33,7 +25,7 @@ html {
   font-style: normal;
   font-size: 16px;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .chivo-mono-notation {
@@ -43,11 +35,12 @@ html {
   font-style: normal;
   font-size: 14px;
   letter-spacing: -0.05em;
-  color: white;
+  color: black;
   font-style: italic;
 }
 
 /* blocks */
+
 .ascii-art { 
     font-family: "courier new", monospace;
     font-size: 6px;
@@ -58,9 +51,9 @@ html {
 }
 
 .main-block {
-    background-color: black;
+    background-color: white;
     padding: 16px;
-    border: 1px solid white;
+    border: 2px solid black;
     width: 416px;
     margin: 0 auto;
     gap: 10px;
@@ -77,6 +70,7 @@ html {
 }
 
 /* misc elements */
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -85,7 +79,7 @@ html {
 }
 
 .btn {
-    border: 1px solid white;
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,9 +118,9 @@ html {
 <!-- Small greeting message -->
 <div class="dialog-block">
     <p> 
-        <img src="media/AsciiArtPortrait.png" style="display: flex; width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white;">
+        <img src="media/AsciiArtPortrait.png" style="display: flex; width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 2px solid black;">
         </p>
-    <p class="chivo-mono-body" width="300" style="display: flex; align-items: center; min-height: 100px; max-height: 100px; padding-left: 16px; border: 1px solid white; border-left: 0px;"> 
+    <p class="chivo-mono-body" width="300" style="display: flex; align-items: center; min-height: 100px; max-height: 100px; padding-left: 8px; border: 2px solid black; border-left: 0px;"> 
         Welcome to repository that stores my assignments for Web Programming class!
     </p>
     </div> <!-- Small greeting message -->
