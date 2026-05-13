@@ -176,8 +176,8 @@ html {
         <img height="30" src="media/btn_NS.svg">
     </a>
 </div> 
-</div> <!-- Portfolio & Socials -->
-</div> <!-- Main blocks -->
+</div><!-- Portfolio & Socials -->
+</div><!-- Main blocks -->
 
 
 
