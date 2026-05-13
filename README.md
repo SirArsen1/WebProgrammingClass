@@ -161,7 +161,7 @@ html {
         <img height="30" src="media/btn_TB2.svg">
     </a>
 </div>
-</div> 
+</div> <!-- Other repos -->
 
 <!-- Portfolio & Socials -->
 <div class="main-block" style="border-top: 0;">
