@@ -88,7 +88,7 @@ html {
 </head>
 </details>
 
-<p style="min-width: 482px; max-width: 482px">
+<p style="min-width: 475px; max-width: 475px">
 <img src="media/ascii-intro.gif">
 </p>
 
