@@ -125,7 +125,7 @@ html {
 <!-- Small greeting message -->
 <div class="dialog-block">
     <div style="width: 100px; min-width: 100px; max-width: 100px; min-height: 100px; max-height: 100px; border: 1px solid white; position: relative;"> 
-        <div style="background:yellow; height: 100px; width: 100px; position: absolute; left: 0; mix-blend-mode: multiply;"></div>
+        <div style="background:yellow; min-height: 100px; max-height: 100px; min-width: 100px; max-width: 100px; position: absolute; left: 0; mix-blend-mode: multiply;"></div>
         <img src="media/AsciiArtPortrait.gif">
     </div style="background-color: yellow;">
     <div class="chivo-mono-body" width="300" style="display: flex; align-items: center; min-height: 100px; max-height: 100px; padding-left: 16px; border: 1px solid white; border-left: 0px;"> 
