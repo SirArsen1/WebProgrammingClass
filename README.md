@@ -49,6 +49,11 @@ html {
     line-height: 0.8;
     letter-spacing: -0.2em;
     color: yellow;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
 }
 
 .main-block {
@@ -94,11 +99,9 @@ html {
 </details>
 
 <div class="container"> <!-- another div to put everything in the middle of the web page -->
-<div class="ascii-art" style="min-width: 470px; max-width: 470px; align: center; display: flex; margin: 6px">
-<img src="media/ascii-intro.gif">
-</div>
-
-<p class="ascii-art" style="align: center; position: absolute; left: 241px; top: 100px; margin: auto;">
+<div style="min-width: 470px; max-width: 470px; margin: 0 auto;">
+<img src="media/ascii-intro.gif" style="display: block; width 470px;">
+<p class="ascii-art" style="position: absolute; top: 90; left: 0; width: 100%; margin: 0;">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
 / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
 \ \/\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ \/ /
@@ -114,7 +117,9 @@ html {
  / /\.--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--./ /\ 
 / /\ \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \/\ \
 \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
- `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' </p>
+ `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' 
+</p>
+</div>
 
 <div style="width: 482px; align: center; align-items: center;"> <!-- Div that wraps everything together, because I was too tired to fix the problem with sliding bars -->
 <!-- Main blocks -->
