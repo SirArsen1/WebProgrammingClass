@@ -98,7 +98,7 @@ html {
 <img src="media/ascii-intro.gif">
 </div>
 
-<p class="ascii-art" style="align: center; position: absolute; left: 180px; top: 100px;">
+<p class="ascii-art" style="align: center; position: absolute; left: 241px; top: 100px; margin: auto;">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
 / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
 \ \/\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ \/ /
