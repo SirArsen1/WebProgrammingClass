@@ -100,7 +100,7 @@ html {
 
 <div class="container"> <!-- another div to put everything in the middle of the web page -->
 <div style="min-width: 470px; max-width: 470px; margin: 0 auto;">
-<img src="media/ascii-intro.gif" style="display: block; max-width 450px; margin: 0 auto;">
+<img src="media/ascii-intro.gif" style="display: block; max-width: 460px; margin: 0 auto;">
 <p class="ascii-art" style="position: absolute; top: 90; left: 0; width: 100%; margin: 0;">
  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--. 
 / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
