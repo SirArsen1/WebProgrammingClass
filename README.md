@@ -84,10 +84,16 @@ html {
     align-items: center;
 }
 
+.container {
+    max-width: 482px;
+    margin: auto;
+}
+
 </style>
 </head>
 </details>
 
+<div class="container"> <!-- another div to put everything in the middle of the web page -->
 <div class="ascii-art" style="min-width: 470px; max-width: 470px; align: center; display: flex; margin: 6px">
 <img src="media/ascii-intro.gif">
 </div>
